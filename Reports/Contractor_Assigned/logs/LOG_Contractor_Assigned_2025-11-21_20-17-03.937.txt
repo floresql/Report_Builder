@@ -1,0 +1,61 @@
+2025-11-21_20-17-04.814 | INFO     | PATH: D:\Report_Builder\reports\Contractor_Assigned 
+2025-11-21_20-17-05.237 | INFO     | Script for Contractor_Assigned started 
+2025-11-21_20-17-05.659 | INFO     | Running main.py 
+2025-11-21 20:17:07.825 | SUCCESS  | SQLAlchemy engine created using schema: OPS$CNE
+2025-11-21 20:17:07.825 | INFO     | Executing: D:\Report_Builder\reports\Contractor_Assigned\sql\CA_24Hour_Rescue.sql
+2025-11-21 20:17:14.518 | SUCCESS  | Statement executed successfully via pd.read_sql, resulting in 35 rows.
+2025-11-21 20:17:14.895 | SUCCESS  | SQLAlchemy engine disposed
+2025-11-21 20:17:15.051 | SUCCESS  | SQLAlchemy engine created using schema: OPS$EA2
+2025-11-21 20:17:15.051 | INFO     | Executing: D:\Report_Builder\reports\Contractor_Assigned\sql\CA_24Hour_Rescue.sql
+2025-11-21 20:17:18.999 | SUCCESS  | Statement executed successfully via pd.read_sql, resulting in 93 rows.
+2025-11-21 20:17:19.391 | SUCCESS  | SQLAlchemy engine disposed
+2025-11-21 20:17:19.547 | SUCCESS  | SQLAlchemy engine created using schema: OPS$MAN
+2025-11-21 20:17:19.547 | INFO     | Executing: D:\Report_Builder\reports\Contractor_Assigned\sql\CA_24Hour_Rescue.sql
+2025-11-21 20:17:22.870 | SUCCESS  | Statement executed successfully via pd.read_sql, resulting in 18 rows.
+2025-11-21 20:17:23.278 | SUCCESS  | SQLAlchemy engine disposed
+2025-11-21 20:17:23.278 | INFO     | Exporting data to Excel file.
+2025-11-21 20:17:23.592 | SUCCESS  | All DataFrames combined and exported to Excel: D:\Report_Builder\reports\Contractor_Assigned\data\processed\CA_24Hour_Rescue.xlsx on sheet: Sheet1
+2025-11-21 20:17:23.733 | SUCCESS  | SQLAlchemy engine created using schema: OPS$CNE
+2025-11-21 20:17:23.733 | INFO     | Executing: D:\Report_Builder\reports\Contractor_Assigned\sql\CA_Job_Type_Codes.sql
+2025-11-21 20:17:25.803 | SUCCESS  | Statement executed successfully via pd.read_sql, resulting in 377 rows.
+2025-11-21 20:17:26.210 | SUCCESS  | SQLAlchemy engine disposed
+2025-11-21 20:17:26.367 | SUCCESS  | SQLAlchemy engine created using schema: OPS$EA2
+2025-11-21 20:17:26.367 | INFO     | Executing: D:\Report_Builder\reports\Contractor_Assigned\sql\CA_Job_Type_Codes.sql
+2025-11-21 20:17:27.965 | SUCCESS  | Statement executed successfully via pd.read_sql, resulting in 337 rows.
+2025-11-21 20:17:28.389 | SUCCESS  | SQLAlchemy engine disposed
+2025-11-21 20:17:28.530 | SUCCESS  | SQLAlchemy engine created using schema: OPS$MAN
+2025-11-21 20:17:28.530 | INFO     | Executing: D:\Report_Builder\reports\Contractor_Assigned\sql\CA_Job_Type_Codes.sql
+2025-11-21 20:17:29.941 | SUCCESS  | Statement executed successfully via pd.read_sql, resulting in 336 rows.
+2025-11-21 20:17:30.285 | SUCCESS  | SQLAlchemy engine disposed
+2025-11-21 20:17:30.285 | INFO     | Exporting data to Excel file.
+2025-11-21 20:17:30.411 | SUCCESS  | All DataFrames combined and exported to Excel: D:\Report_Builder\reports\Contractor_Assigned\data\processed\CA_Job_Type_Codes.xlsx on sheet: Sheet1
+2025-11-21 20:17:30.552 | SUCCESS  | SQLAlchemy engine created using schema: OPS$CNE
+2025-11-21 20:17:30.552 | INFO     | Executing: D:\Report_Builder\reports\Contractor_Assigned\sql\CA_Pending_Today.sql
+2025-11-21 20:17:53.780 | SUCCESS  | Statement executed successfully via pd.read_sql, resulting in 548 rows.
+2025-11-21 20:17:54.173 | SUCCESS  | SQLAlchemy engine disposed
+2025-11-21 20:17:54.580 | SUCCESS  | SQLAlchemy engine created using schema: OPS$EA2
+2025-11-21 20:17:54.580 | INFO     | Executing: D:\Report_Builder\reports\Contractor_Assigned\sql\CA_Pending_Today.sql
+2025-11-21 20:18:10.642 | SUCCESS  | Statement executed successfully via pd.read_sql, resulting in 2848 rows.
+2025-11-21 20:18:10.956 | SUCCESS  | SQLAlchemy engine disposed
+2025-11-21 20:18:11.144 | SUCCESS  | SQLAlchemy engine created using schema: OPS$MAN
+2025-11-21 20:18:11.144 | INFO     | Executing: D:\Report_Builder\reports\Contractor_Assigned\sql\CA_Pending_Today.sql
+2025-11-21 20:18:23.840 | SUCCESS  | Statement executed successfully via pd.read_sql, resulting in 349 rows.
+2025-11-21 20:18:24.278 | SUCCESS  | SQLAlchemy engine disposed
+2025-11-21 20:18:24.278 | INFO     | Exporting data to Excel file.
+2025-11-21 20:18:28.226 | SUCCESS  | All DataFrames combined and exported to Excel: D:\Report_Builder\reports\Contractor_Assigned\data\processed\CA_Pending_Today.xlsx on sheet: Sheet1
+2025-11-21 20:18:28.415 | SUCCESS  | SQLAlchemy engine created using schema: OPS$CNE
+2025-11-21 20:18:28.415 | INFO     | Executing: D:\Report_Builder\reports\Contractor_Assigned\sql\CA_Rescue_yesterday.sql
+2025-11-21 20:18:32.177 | SUCCESS  | Statement executed successfully via pd.read_sql, resulting in 46 rows.
+2025-11-21 20:18:32.490 | SUCCESS  | SQLAlchemy engine disposed
+2025-11-21 20:18:32.615 | SUCCESS  | SQLAlchemy engine created using schema: OPS$EA2
+2025-11-21 20:18:32.615 | INFO     | Executing: D:\Report_Builder\reports\Contractor_Assigned\sql\CA_Rescue_yesterday.sql
+2025-11-21 20:18:35.834 | SUCCESS  | Statement executed successfully via pd.read_sql, resulting in 253 rows.
+2025-11-21 20:18:36.143 | SUCCESS  | SQLAlchemy engine disposed
+2025-11-21 20:18:36.268 | SUCCESS  | SQLAlchemy engine created using schema: OPS$MAN
+2025-11-21 20:18:36.268 | INFO     | Executing: D:\Report_Builder\reports\Contractor_Assigned\sql\CA_Rescue_yesterday.sql
+2025-11-21 20:18:39.404 | SUCCESS  | Statement executed successfully via pd.read_sql, resulting in 30 rows.
+2025-11-21 20:18:39.763 | SUCCESS  | SQLAlchemy engine disposed
+2025-11-21 20:18:39.763 | INFO     | Exporting data to Excel file.
+2025-11-21 20:18:39.826 | SUCCESS  | All DataFrames combined and exported to Excel: D:\Report_Builder\reports\Contractor_Assigned\data\processed\CA_Rescue_yesterday.xlsx on sheet: Sheet1
+2025-11-21_20-18-40.515 | SUCCESS  | main.py ran without any reported errors 
+2025-11-21_20-18-40.938 | INFO     | Running UpdateReport.xlsm 
