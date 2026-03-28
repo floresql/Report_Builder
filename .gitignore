@@ -1,0 +1,30 @@
+###############################################################
+# Ignore regular files
+###############################################################
+*.xlsx
+*.xlsm
+*.htm
+.gitignore
+
+
+###############################################################
+# Ignore directories:
+###############################################################
+.archive/
+data/
+email/
+logs/
+reference/
+macros/
+
+
+###############################################################
+# Ignore log files, but keep specific ones
+# *.log
+# !important.log
+###############################################################
+reports/Bury_Drop/macros/PrepFOA.xlsm
+reports/Bury_Drop/macros/Updatereport.xlsm
+reports/Core_Customers/macros/UpdateReport.xlsm
+reports/Pending_Trending/macros/AutoMacro.xlsm
+reports/Pending_Trending/macros/UpdateReport.xlsm
