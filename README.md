@@ -4,33 +4,35 @@ A structured Python framework designed to automate the end-to-end lifecycle of d
 
 ## Project Structure
 
+```text
 Report Builder/
-├── .archive/               # Old files/processes no longer in use
-├── .logs/                  # Logs of the backup and push to PROD process
-├── reference/              # Data dictionaries, manuals, etc.
-├── reports/                # Individual reports folder
-│   └── Report_Name/        # Content specific to a single report
-│       ├── data/
-│       │   ├── external/   # Third party sources (e.g., FOA)
-│       │   ├── processed/  # Final, canonical data sets
-│       │   └── raw/        # Original, immutable data
-│       ├── email/          # Scripts/files for distribution
-│       ├── logs/           # Project run and error logs
-│       ├── macros/         # Scripts to format processed data
+├── .archive/               # Old files/processes no longer in use.
+├── .logs/                  # Logs of the backup and push to PROD process.
+├── reference/              # Data dictionaries and manuals.
+├── reports/                # Individual reports storage.
+│   └── Report_Name/        # Folder specific to one report.
+│       ├── data/                  
+│       │   ├── external/   # Data from third party sources.
+│       │   ├── processed/  # Final, canonical data sets.
+│       │   └── raw/        # Original, immutable data dump.    
+│       ├── email/          # Scripts to email the report(s).
+│       ├── logs/           # Report-specific run/error logs.
+│       ├── macros/         # Scripts to format report files.
 │       ├── Report_Name.xlsx
 │       └── start_process.bat
-├── src/                    # Source code package
-│   ├── sql/                # SQL files for main.py to execute
-│   ├── __init__.py
-│   ├── config.py           # Variables and configuration
-│   ├── excel_export.py     # Exports results to Excel
-│   ├── external_data.py    # Scripts for external data fetching
-│   ├── main.py             # Main entry point
+├── src/                    # Source code package.
+│   ├── sql/                # SQL files for main.py to execute.
+│   ├── __init__.py         
+│   ├── config.py           # Configuration variables.
+│   ├── excel_export.py     # Exports results to Excel.
+│   ├── external_data.py    # Scripts for external data fetching.
+│   ├── main.py             # Main entry point.
 │   └── snowflake_handler.py
-├── .env                    # Environment variables
-├── .gitignore              # Git exclusion rules
-├── README.md               # Top-level documentation
-└── requirements.txt        # Dependencies
+├── .env                    # Environment variables.
+├── .gitignore              # Files to ignore in Git.
+├── README.md               # Top-level developer documentation.
+└── requirements.txt        # Python environment dependencies.
+```
 
 ## Overview
 This project automates the execution of SQL queries across multiple schemas, processes the results, and generates formatted Excel reports. It features a modular architecture where adding a new report is managed by placing SQL files into the source directory and configuring the execution flow via the central engine.
