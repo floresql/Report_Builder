@@ -38,7 +38,7 @@ def download_excel_file(destination_file: Path):
     # Use an f-string to inject the variable into the PowerShell command.
     powershell_script = f"""
     [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]'Tls,Tls11,Tls12'
-    Invoke-WebRequest -Uri "https://foa.corp.chartercom.com/download_srv.php?id=EED58A7F-78B4-47A2-84F1-F089729F8E5B" -OutFile "{destination_file}"
+    Invoke-WebRequest -Uri "YOUR_WEBSITE_HERE" -OutFile "{destination_file}"
     """
     # Execute the command using subprocess.run
     try:
@@ -60,5 +60,5 @@ def download_excel_file(destination_file: Path):
 
 # This "main guard" ensures the code runs only when the file is executed directly.
 if __name__ == "__main__":
-    destination_file: Path = EXTERNAL_DATA_DIR / "FOA_Detail.xlsx"
+    destination_file: Path = EXTERNAL_DATA_DIR / "YOUR_FILENAME_HERE.xlsx"
     download_excel_file(destination_file)
